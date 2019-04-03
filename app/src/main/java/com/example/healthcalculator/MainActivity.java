@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button b;
+    Button b,b1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,10 +19,20 @@ public class MainActivity extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "WE are Going For BMI Test!!! Yeahhh...", Toast.LENGTH_SHORT).show();//this method shows a message
-                //Connected to BMI Calculator Class//
+                Toast.makeText(getApplicationContext(), "WE are Going For BMI Test!!! Yeahhhooo...", Toast.LENGTH_SHORT).show();//this method shows a message
+                //Connected to BMI Class//
                 Intent i = new Intent(MainActivity.this, bmi.class);
 
+                startActivity(i);
+
+            }
+        });
+        b1 = (Button) findViewById(R.id.MYbutton2);
+        b1.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "WE are Going For Walking!!! Yeahhhooo...", Toast.LENGTH_SHORT).show();
+                //connected to walk class
+                Intent i = new Intent(MainActivity.this, walk.class);
                 startActivity(i);
 
             }
