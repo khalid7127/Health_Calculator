@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0E1C1D"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="15dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/stepcou"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Steps"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textColor="#02F70D"
+            android:layout_marginTop="20sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="0"
+            android:textColor="#DF9A12"
+            android:textSize="45sp"
+            android:layout_marginTop="5sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:text="A Sensor of this type returns the number of steps taken by the user since the last reboot while activated.Value is reset to zero only on a system reboot."
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="#D50000"
+            android:layout_marginTop="10sp" />
+
+        <TextView
+            android:id="@+id/calview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="0 cal"
+            android:textColor="#00FF99"
+            android:textSize="55sp"
+            android:layout_marginTop="60sp" />
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
