@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#05bbf7"
+    tools:context=".flutter">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+            android:src="@drawable/flutter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            />
+
+
+        <TextView
+            android:id="@+id/Instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Instructions: \n\n1. Lie on your back, hands at your sides. While the common flutter kick has you scissoring both legs simultaneously, this take keeps one leg straight up while the other rises from the floor to meet it.\n2. Keep your abs engaged to tone those muscles, as well as strengthen your core.\n3. Do about 10 per side."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#F80101"/>
+
+        <TextView
+            android:id="@+id/Duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Duration: \n\nDo 10 per side. Repeat 3 times."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#031CFF"/>
+
+        <TextView
+            android:id="@+id/Extra_credit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Extra credit: \n\nThis exercise is great for keeping your hip flexors limber."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#0E0E0E"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

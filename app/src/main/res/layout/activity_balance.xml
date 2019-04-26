@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#05bbf7"
+    tools:context=".balance">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+            android:src="@drawable/balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            />
+
+
+        <TextView
+            android:id="@+id/Instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Instructions: \n\n1. Get in plank position, making sure your lower back isn’t arched and your abs are tight.\n2. Alternating hands, reach down with a straight arm and touch the opposite hip. This adds an element of cardio to the move and also trains your body to balance."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#F80101"/>
+
+        <TextView
+            android:id="@+id/Duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Duration: \n\nDo 20 reps (10 per side). Repeat 3 times."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#031CFF"/>
+
+        <TextView
+            android:id="@+id/Extra_credit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Extra credit: \n\nPlanking is one of the best things you can do, but after 10 seconds, you might have maximized its potential. You can enhance the usual plank by doing reaches."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#0E0E0E"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Health Calculator</string>
+
+    <string-array name="unit">
+        <item>Meter</item>
+        <item>Centimeter</item>
+        <item>Inch</item>
+    </string-array>
 </resources>

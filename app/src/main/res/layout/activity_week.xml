@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/week"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/first"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:text="First\nDay"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="28dp"
+            android:background="@drawable/btn_back"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            />
+
+        <Button
+            android:id="@+id/second"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:text="Second\nDay"
+            android:textStyle="bold"
+            android:textColor="#D50000"
+            android:textSize="28dp"
+            android:background="@drawable/btn_back"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/third"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:text="Third\nDay"
+            android:textStyle="bold"
+            android:textColor="#000AC8"
+            android:textSize="28dp"
+            android:background="@drawable/btn_back"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/fourth"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:text="Fourth\nDay"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="28dp"
+            android:background="@drawable/btn_back"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            />
+
+        <Button
+            android:id="@+id/fifth"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:text="Fifth\nDay"
+            android:textStyle="bold"
+            android:textColor="#F70404"
+            android:textSize="28dp"
+            android:background="@drawable/btn_back"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/sixth"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:text="Sixth\nDay"
+            android:textStyle="bold"
+            android:textColor="#0C2EE9"
+            android:textSize="28dp"
+            android:background="@drawable/btn_back"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/seventh"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:text="Seventh\nDay"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="28dp"
+            android:background="@drawable/btn_back"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

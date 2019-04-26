@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#05bbf7"
+    tools:context=".firstday">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:src="@drawable/foodchart"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            />
+
+
+        <TextView
+            android:id="@+id/breakfast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Breakfast: Omelette made with three egg whites and filled with 75g chopped mixed peppers and a handful of spinach"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#F80808"/>
+
+        <TextView
+            android:id="@+id/mid_morning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Mid-morning snack: 100g chicken with ½ red pepper, sliced"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#472970"/>
+
+        <TextView
+            android:id="@+id/lunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Lunch: One grilled chicken breast, mixed salad leaves, red peppers, green beans and ¼ tbsp olive oil"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#0E0E0E"/>
+
+        <TextView
+            android:id="@+id/mid-afternoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="Mid-afternoon snack: 100g turkey breast with ¼ cucumber, sliced"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FF6D00" />
+
+        <TextView
+            android:id="@+id/Dinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Dinner: 100g grilled chicken breast with steamed broccoli"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#001EFF"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

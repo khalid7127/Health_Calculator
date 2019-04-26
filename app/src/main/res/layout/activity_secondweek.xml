@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/week_back"
+    tools:context=".secondweek">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:src="@drawable/weekchart"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/Early_morning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Early morning: \n10 ml wheatgrass juice + 5 to 6 almonds and walnuts"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FF6D00"/>
+
+        <TextView
+            android:id="@+id/Breakfast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Breakfast: \n2 medium vegetable uthappam with sambhar / 1 bowl vegetable dalia upma + chutney / 2 medium paneer, oats and ragi dosa with sambhar / 1 bowl fruit, flaxseed and oats porridge / 1 bowl red rice or brown rice pulse-mixed pongal + 1 bowl sambhar / 1 sprouted red rice poha + 1 glass vegetable juice of choice"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#F3EF05"/>
+
+        <TextView
+            android:id="@+id/Mid_morning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Mid-morning: \n1 glass Whey protein shake with milk / assorted fruit platter / Trail mix/Tender coconut juice with the malai"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#17C24B"/>
+
+        <TextView
+            android:id="@+id/Pre_lunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:paddingRight="10dp"
+            android:text="Pre-lunch: \n1 bowl minestrone soup with more veggies and less of pasta"
+            android:textColor="#DF0D8B"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Lunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            android:paddingRight="10dp"
+            android:text="Lunch: \n2 multigrain roti + 1 bowl vegetable subji / non-veg subji + 1 bowl boiled pulse chaat (rajma, chana, black chana, green moong etc) / 1 bowl red or brown rice + 1 bowl mixed vegetable subji + 1 vegetable egg omlette"
+            android:textColor="#F1F1ED"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Snack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Snack: \n2 multigrain flour khakras  / 1 fruit of your choice + 1 cup green tea / Trail mix with mixed seeds"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#0055FF" />
+
+        <TextView
+            android:id="@+id/Dinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Dinner: \n1 bowl vegetable brown rice basmati chicken biryani/ vegetable pulao + 1 bowl vegetable raita + 1 bowl vegetable or chicken salad of choice / 1 bowl steamed red rice + 1 bowl mixed vegetable sambhar + 1 bowl non-veg / vegetable subji + 1 bowl salad of choice / 2 multigrain roti + 1 bowl mixed spiced dals / fish curry + 1 bowl curd"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#11FF00" />
+
+        <TextView
+            android:id="@+id/Post_dinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="12dp"
+            android:text="Post-dinner (if you are up late): \n1 glass of whey protein shake if missed during snack or simply a glass of warm milk"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#DD9CE9" />
+
+    </LinearLayout>
+
+
+</ScrollView>

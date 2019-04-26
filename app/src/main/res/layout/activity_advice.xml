@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/nutrition3"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Don't Drink Sugar Calories"
+            android:textStyle="bold"
+            android:textColor="#D50000"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/nt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Eat Nuts"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/nt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Avoid Processed Junk Food"
+            android:textStyle="bold"
+            android:textColor="#0A17F8"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/nt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Don't Fear Coffee"
+            android:textStyle="bold"
+            android:textColor="#EBFD0335"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/nt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Eat Fatty Fish"
+            android:textStyle="bold"
+            android:textColor="#2962FF"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/nt6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Get Enough Sleep"
+            android:textStyle="bold"
+            android:textColor="#EB131212"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/nt7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Drink Water, Before Meals"
+            android:textStyle="bold"
+            android:textColor="#EBFD0335"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/nt8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Don't Overcook or Burn Your Meat"
+            android:textStyle="bold"
+            android:textColor="#6200EA"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/nt9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9. Avoid Bright Lights Before Sleep"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/nt10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10. Eat Vegetables and Fruits"
+            android:textStyle="bold"
+            android:textColor="#0A17F8"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/nt11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11. Do Some Cardio"
+            android:textStyle="bold"
+            android:textColor="#EBFD0335"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/nt12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12. Don't Smoke or do Drugs"
+            android:textStyle="bold"
+            android:textColor="#2962FF"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/nt13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="13. Use Extra Virgin Olive Oil"
+            android:textStyle="bold"
+            android:textColor="#EB131212"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/nt14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="14. Minimize Intake of Added Sugars"
+            android:textStyle="bold"
+            android:textColor="#EBFD0335"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/nt15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15. Don't Fear Saturated Fat"
+            android:textStyle="bold"
+            android:textColor="#0A17F8"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:layout_marginBottom="5dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

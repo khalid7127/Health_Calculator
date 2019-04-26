@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="@drawable/food"
+    >
+
+
+    <Button
+        android:id="@+id/btncircle"
+        android:background="@drawable/btn_back"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="Week"
+        android:textColor="#F8062A"
+        android:textStyle="bold"
+        android:textSize="28dp"
+        android:layout_marginTop="100dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/btncircle1"
+        android:background="@drawable/btn_back"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="150dp"
+        android:text="Month"
+        android:textColor="#0746F3"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        />
+
+
+
+</LinearLayout>
+
+

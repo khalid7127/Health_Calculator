@@ -10,6 +10,81 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".balance"
+            android:parentActivityName=".exercise" />
+        <activity
+            android:name=".thigh"
+            android:parentActivityName=".exercise" />
+        <activity
+            android:name=".blast"
+            android:parentActivityName=".exercise" />
+        <activity
+            android:name=".fish"
+            android:parentActivityName=".exercise" />
+        <activity
+            android:name=".flutter"
+            android:parentActivityName=".exercise" />
+        <activity
+            android:name=".spinal"
+            android:parentActivityName=".exercise" />
+        <activity
+            android:name=".shoulder"
+            android:parentActivityName=".exercise" />
+        <activity
+            android:name=".fourthweek"
+            android:parentActivityName=".month" />
+        <activity
+            android:name=".thirdweek"
+            android:parentActivityName=".month" />
+        <activity
+            android:name=".secondweek"
+            android:parentActivityName=".month" />
+        <activity
+            android:name=".firstweek"
+            android:parentActivityName=".month" />
+        <activity
+            android:name=".seventhday"
+            android:parentActivityName=".week" />
+        <activity
+            android:name=".sixth"
+            android:parentActivityName=".week" />
+        <activity
+            android:name=".fifthday"
+            android:parentActivityName=".week" />
+        <activity
+            android:name=".fourthday"
+            android:parentActivityName=".week" />
+        <activity
+            android:name=".thirdday"
+            android:parentActivityName=".week" />
+        <activity
+            android:name=".secondday"
+            android:parentActivityName=".week" />
+        <activity
+            android:name=".firstday"
+            android:parentActivityName=".week" />
+        <activity
+            android:name=".month"
+            android:parentActivityName=".diet" />
+        <activity
+            android:name=".week"
+            android:parentActivityName=".diet" />
+        <activity
+            android:name=".advice"
+            android:parentActivityName=".tips" />
+        <activity
+            android:name=".food"
+            android:parentActivityName=".tips" />
+        <activity
+            android:name=".exercise"
+            android:parentActivityName=".tips" />
+        <activity
+            android:name=".diet"
+            android:parentActivityName=".tips" />
+        <activity
+            android:name=".tips"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".walk"
             android:parentActivityName=".MainActivity" />
         <activity

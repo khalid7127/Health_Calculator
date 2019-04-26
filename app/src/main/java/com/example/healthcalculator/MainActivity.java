@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button b,b1;
+    Button b,b1,b2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +37,18 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        b2 = (Button) findViewById(R.id.Mybutton3);
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "WE are Going For Health Tips!!! Yeahhhooo...", Toast.LENGTH_SHORT).show();
+                //connected to tips class
+                Intent i = new Intent(MainActivity.this, tips.class);
+                startActivity(i);
+
+            }
+        });
+
 
     }
 }

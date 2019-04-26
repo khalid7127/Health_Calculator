@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#05bbf7"
+    tools:context=".fish">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+            android:src="@drawable/fish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            />
+
+
+        <TextView
+            android:id="@+id/Instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Instructions: \n\n1. Lie down with arms at your sides, palms down.\n2. Press your forearms and elbows into the floor and lift your chest to arch your back.\n3. Lift your shoulder blades and upper torso off the floor, then tilt your head back and bring the crown of your head to the floor.\n4. Press through your heels and hold for five breaths.\n5. To release, press through your forearms to slightly lift your head off the floor. Exhale as you lower your torso and head to the floor."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#F80101"/>
+
+        <TextView
+            android:id="@+id/Duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Duration: \n\n1 minute."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#031CFF"/>
+
+        <TextView
+            android:id="@+id/Extra_credit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Extra credit: \n\nFish Pose improves spinal flexibility and posture by stretching the front of your body, upper back muscles, and neck."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#0E0E0E"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

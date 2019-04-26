@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#05bbf7"
+    tools:context=".spinal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+            android:src="@drawable/spinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            />
+
+
+        <TextView
+            android:id="@+id/Instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Instructions: \n\n1. Lying down with your arms straight out, palms down, look in one direction.\n2. Twist both knees to the floor in the other direction."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#F80101"/>
+
+        <TextView
+            android:id="@+id/Duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Duration: \n\nHold for 10 seconds and then switch. Repeat until you feel your body instinctively relaxing."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#031CFF"/>
+
+        <TextView
+            android:id="@+id/Extra_credit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Extra credit: \n\nThese are great on their own to help massage your internal organs by bringing them blood flow."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#0E0E0E"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

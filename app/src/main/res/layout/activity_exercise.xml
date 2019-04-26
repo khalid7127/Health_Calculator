@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/exercise"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/shoulder_shrugs"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:text="Shoulder Shrugs"
+            android:textStyle="bold"
+            android:textColor="#D50000"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            />
+
+        <Button
+            android:id="@+id/spinal_twist"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:text="Spinal Twist"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/flutter_kicks"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:text="Flutter Kicks"
+            android:textStyle="bold"
+            android:textColor="#0A17F8"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/fish_pose"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:text="Fish\nPose"
+            android:textStyle="bold"
+            android:textColor="#EBFD0335"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            />
+
+        <Button
+            android:id="@+id/blast"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:text="Blast Glute Muscles"
+            android:textStyle="bold"
+            android:textColor="#2962FF"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            />
+
+        <Button
+            android:id="@+id/thigh_lift"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:text="Thigh\nLift"
+            android:textStyle="bold"
+            android:textColor="#EB131212"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            />
+
+        <Button
+            android:id="@+id/better_balance"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:text="Better Balance"
+            android:textStyle="bold"
+            android:textColor="#EBFD0335"
+            android:textSize="30dp"
+            android:background="@drawable/btn_back"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

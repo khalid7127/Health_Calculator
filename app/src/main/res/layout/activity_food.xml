@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:background="#46F008"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#070707"
+            android:padding="7dp"
+            >
+
+            <TextView
+                android:id="@+id/almonds_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Almonds:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#E90A0A"
+                android:paddingBottom="10dp"
+                />
+
+            <ImageView
+                android:src="@drawable/almonds"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/almonds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="7dp"
+                android:text="Importance: \n--------------\n\n1. Almonds are a rich source of vitamin E, copper, magnesium, good quality protein, and healthy unsaturated fatty acids.\n\n2. Studies have revealed that almonds can potentially help prevent cardiovascular diseases, cut the risk of cancer, and help prolong life."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#F80101"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#46F008"
+            android:padding="2dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#FFD600"
+            android:padding="7dp"
+            >
+
+            <TextView
+                android:id="@+id/apples_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apples:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#E90A0A"
+                android:paddingBottom="10dp"
+                />
+
+            <ImageView
+                android:src="@drawable/apples"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/apples"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="7dp"
+                android:text="Importance: \n--------------\n\n1. Apples are sometimes called nutritional powerhouses because of their impressive nutritional profile.\n\n2. Apples contain about 14 percent of our daily needs of Vitamin C, B-complex vitamins, dietary fiber, phytonutrients, and minerals such as calcium and potassium."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#F80101"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#46F008"
+            android:padding="2dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#070707"
+            android:padding="7dp"
+            >
+
+            <TextView
+                android:id="@+id/arugula_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arugula:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#E90A0A"
+                android:paddingBottom="10dp"
+                />
+
+            <ImageView
+                android:src="@drawable/arugula"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/arugula"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="7dp"
+                android:text="Importance: \n--------------\n\n1. Along with other leafy greens, arugula contains very high nitrate levels (more than 250 milligrams per 100 grams).\n\n2. The potential health benefits of arugula include lowering the risk of cancer, preventing osteoporosis, and improving muscle oxygenation during exercise."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#F80101"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#46F008"
+            android:padding="2dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#FFD600"
+            android:padding="7dp"
+            >
+
+            <TextView
+                android:id="@+id/asparagus_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asparagus:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#E90A0A"
+                android:paddingBottom="10dp"
+                />
+
+            <ImageView
+                android:src="@drawable/asparagus"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/asparagus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="7dp"
+                android:text="Importance: \n--------------\n\n1. Asparagus is very rich in dietary fiber and contains high levels of vitamin B6, calcium, zinc, and magnesium.\n\n2. The potential health benefits of asparagus include: reducing the risk of diabetes, preventing kidney stones, and lowering the risk of neural tube defects in babies."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#F80101"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#46F008"
+            android:padding="2dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#070707"
+            android:padding="7dp"
+            >
+
+            <TextView
+                android:id="@+id/bananas_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bananas:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#E90A0A"
+                android:paddingBottom="10dp"
+                />
+
+            <ImageView
+                android:src="@drawable/bananas"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/bananas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="7dp"
+                android:text="Importance: \n--------------\n\n1. Bananas are naturally free of fat, cholesterol, and sodium, and very rich in potassium.\n\n2. The potential health benefits of bananas include: lowering blood pressure, reducing the risk of developing childhood leukemia, and supporting heart health."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#F80101"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#46F008"
+            android:padding="2dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#FFD600"
+            android:padding="7dp"
+            >
+
+            <TextView
+                android:id="@+id/basil_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Basil:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#E90A0A"
+                android:paddingBottom="10dp"
+                />
+
+            <ImageView
+                android:src="@drawable/basil"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/basil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="7dp"
+                android:text="Importance: \n--------------\n\n1. Basil is rich in vitamin A, vitamin K, vitamin C, magnesium, iron, potassium, and calcium.\n\n2. Studies have revealed that basil can potentially reduce inflammation and swelling, prevent the harmful effects of aging, and may be useful in treating arthritis and inflammatory bowel diseases."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#F80101"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#46F008"
+            android:padding="2dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#070707"
+            android:padding="7dp"
+            >
+
+            <TextView
+                android:id="@+id/broccoli_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Broccoli:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#E90A0A"
+                android:paddingBottom="10dp"
+                />
+
+            <ImageView
+                android:src="@drawable/broccoli"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/broccoli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="7dp"
+                android:text="Importance: \n--------------\n\n1. Broccoli contains high levels of fiber (both soluble and insoluble) and is a rich source of vitamin C.\n\n2. Studies have found that broccoli can potentially help prevent osteoarthritis, protect skin against the effects of UV light, reverse diabetes heart damage, and reduce bladder cancer risk."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#F80101"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#46F008"
+            android:padding="2dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#FFD600"
+            android:padding="7dp"
+            >
+
+            <TextView
+                android:id="@+id/garlic_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Garlic:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#E90A0A"
+                android:paddingBottom="10dp"
+                />
+
+            <ImageView
+                android:src="@drawable/garlic"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/garlic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="7dp"
+                android:text="Importance: \n--------------\n\n1. Garlic is widely used for several conditions linked to the blood system and heart.\n\n2. Studies have found that garlic can potentially be a very powerful antibiotic, help protect the heart during cardiac surgery and after a heart attack, lower the risk of developing lung cancer, and reduce high cholesterol and blood pressure levels."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#F80101"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#46F008"
+            android:padding="2dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#070707"
+            android:padding="7dp"
+            >
+
+            <TextView
+                android:id="@+id/grapes_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grapes:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#E90A0A"
+                android:paddingBottom="10dp"
+                />
+
+            <ImageView
+                android:src="@drawable/grapes"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/grapes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="7dp"
+                android:text="Importance: \n--------------\n\n1. The portability, texture, flavor, and variety of grapes have made them a popular finger food in countries all over the world.\n\n2. Studies have associated grapes with the prevention of cancer, heart disease, high blood pressure, and constipation as well as decreasing the risk of obesity and overall mortality."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#F80101"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#46F008"
+            android:padding="2dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#FFD600"
+            android:padding="7dp"
+            >
+
+            <TextView
+                android:id="@+id/green_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Green Tea:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#E90A0A"
+                android:paddingBottom="10dp"
+                />
+
+            <ImageView
+                android:src="@drawable/green"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="7dp"
+                android:text="Importance: \n--------------\n\n1. Green tea may well be one of the world's healthiest drinks and contains the highest amount of antioxidants of any tea.\n\n2. Studies have found that drinking green tea is associated with a reduced risk of stroke, and may help fight prostate cancer."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#F80101"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#46F008"
+            android:padding="2dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#070707"
+            android:padding="7dp"
+            >
+
+            <TextView
+                android:id="@+id/honey_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Honey:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#E90A0A"
+                android:paddingBottom="10dp"
+                />
+
+            <ImageView
+                android:src="@drawable/honey"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/honey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="7dp"
+                android:text="Importance: \n--------------\n\n1. Honey possesses antiseptic and antibacterial properties.\n\n2. Studies have found that honey can potentially help prevent GERD (gastroesophageal reflux), shorten the duration of bacterial diarrhea, help heal burns, minimize seasonal allergies, and fight off infections."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#F80101"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#46F008"
+            android:padding="2dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#FFD600"
+            android:padding="7dp"
+            >
+
+            <TextView
+                android:id="@+id/spinach_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spinach:"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="#E90A0A"
+                android:paddingBottom="10dp"
+                />
+
+            <ImageView
+                android:src="@drawable/spinach"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/spinach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_marginBottom="7dp"
+                android:text="Importance: \n--------------\n\n1. Spinach is one of the best sources of dietary magnesium and calcium.\n\n2. The potential health benefits of spinach include: helping manage diabetes, helping preventing cancer, reducing the risk of asthma, lowering the risk of blood pressure, and improving bone health."
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#F80101"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

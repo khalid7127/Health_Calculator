@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#05bbf7"
+    tools:context=".thigh">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        >
+
+        <ImageView
+            android:src="@drawable/thigh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            />
+
+
+        <TextView
+            android:id="@+id/Instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Instructions: \n\n1. Lie on your back with your legs straight up in the air, keeping your feet flat.\n2. Slowly drop one leg to the side at about a 45-degree angle. Be sure to keep your leg straight and feet flat."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#F80101"/>
+
+        <TextView
+            android:id="@+id/Duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Duration: \n\nDo 10 reps for each leg. Repeat 3 times."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#031CFF"/>
+
+        <TextView
+            android:id="@+id/Extra_credit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Extra credit: \n\nIt helps support your knees and lower back, especially when doing any heavy lifting."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#0E0E0E"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
